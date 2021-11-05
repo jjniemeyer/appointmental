@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# Appointmental
+
+real calendars made *by* calendars *for* calendars and maybe also people.
+
+React app for making scheduling of appointments *seem* "easy".
+
+future home of fun and useful calendar integrations.
+
+---
+---
+---
+---
+---
+---
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
