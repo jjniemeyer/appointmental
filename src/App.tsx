@@ -1,6 +1,7 @@
-import * as React from "react";
-import Logo from './Logo';
 import { Link, Routes, Route, Outlet } from "react-router-dom";
+import Home from "./components/Home"
+import About from "./components/About"
+import Login from "./components/Login"
 
 export default function App() {
   return (
@@ -26,26 +27,5 @@ function Layout() {
       </nav>
       <Outlet />
     </div>
-  );
-}
-
-function Home(){
-  return (
-      <div>
-          <h2>Home</h2>
-          <p>Home sweet home</p>
-      </div>
-  );
-}
-
-function About(){
-  return (
-      <Logo />
-  );
-}
-
-function Login(){
-  return (
-      <Logo />
   );
 }
